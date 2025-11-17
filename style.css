@@ -1,4 +1,4 @@
-body{background:#000;color:#fff;font-family:Arial;}* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,38 +7,41 @@ body{background:#000;color:#fff;font-family:Arial;}* {
 body {
     font-family: Arial, sans-serif;
     background: #111;
-    color: white;
+    color: #fff;
 }
 
+/* Header */
 header {
     padding: 20px;
+    background: #222;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #222;
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 nav a {
-    margin-left: 15px;
     color: white;
-    text-decoration: none;
     font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
 }
 
+/* Hero Section */
 .hero {
-    padding: 100px 20px;
+    padding: 120px 20px;
     text-align: center;
 }
 
 .hero h2 {
-    font-size: 42px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 20px;
+    opacity: 0.8;
 }
